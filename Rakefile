@@ -21,8 +21,8 @@ task :all_tests do
 end
 
 task :compile do
-	`./node_modules/.bin/babel -s --presets es2015 src --out-dir vendor/assets/javascripts`
-	`./node_modules/.bin/browserify vendor/assets/javascripts/affiliator-jquery.js -o vendor/assets/javascripts/affiliator.js`
+	system './node_modules/.bin/babel -s --presets es2015 src --out-dir vendor/assets/javascripts'
+	system './node_modules/.bin/browserify vendor/assets/javascripts/affiliator-jquery.js -o vendor/assets/javascripts/affiliator.js'
 end
 
 task :run do 
