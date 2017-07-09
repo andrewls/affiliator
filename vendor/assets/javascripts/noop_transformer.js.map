@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../src/noop_transformer.js"],"names":["NoopTransformer","link"],"mappings":";;;;;;;;;;IAAMA,e;;;;;;;4BACKC,I,EAAM;AACf,UAAOA,IAAP;AACA;;;;;;kBAGaD,e","file":"noop_transformer.js","sourcesContent":["class NoopTransformer {\n\ttransform(link) {\n\t\treturn link\n\t}\n}\n\nexport default NoopTransformer;\n"]}

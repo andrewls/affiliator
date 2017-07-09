@@ -1,5 +1,5 @@
 import test from 'ava';
-import { AmazonTransformer } from '../../vendor/assets/javascripts/affiliator';
+import AmazonTransformer from '../../vendor/assets/javascripts/amazon_transformer';
 
 let transformer = new AmazonTransformer('affiliatetag-02')
 const links = {
