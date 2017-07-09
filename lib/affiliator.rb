@@ -1,5 +1,5 @@
 require "affiliator/version"
+require "affiliator/engine"
 
 module Affiliator
-  # Your code goes here...
 end

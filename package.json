@@ -1,0 +1,15 @@
+{
+  "name": "affiliator",
+  "version": "0.0.1",
+  "devDependencies": {
+    "ava": "^0.20.0",
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1"
+  },
+  "license": "MIT",
+  "repository": "https://www.github.com/andrewls/affiliator",
+  "scripts": {
+    "test": "ava"
+  }
+}
